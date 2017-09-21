@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://github.com/jpsim/PeerKit'
   s.social_media_url = 'https://twitter.com/simjp'
   s.source = {
-    :git => 'https://github.com/jpsim/PeerKit.git',
+    :git => 'https://github.com/touyou/PeerKit.git',
     :tag => s.version
   }
   s.ios.deployment_target = '8.0'
