@@ -46,6 +46,8 @@ public class Session: NSObject, MCSessionDelegate {
                 delegate?.connected(myPeerID: myPeerID, toPeer: peerID)
             case .notConnected:
                 delegate?.disconnected(myPeerID: myPeerID, fromPeer: peerID)
+        @unknown default:
+            fatalError()
         }
     }
 
